@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* -----------navbar section--------------- */
+nav {
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+nav ul li {
+    list-style: none;
+    color: white;
+    padding: 0px 12px;
+}
+.brand img{
+    width: 30px;
+    margin-right: 5px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;   
+}
+.backImg {
+    z-index: -1;
+}
+
+/* -----------main body section--------------- */
+.container {
+    font-family: 'Varela Round', sans-serif;
+    min-height: 73vh;
+    color: white;
+    width: 70%;
+    display: flex;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-image: url("bg1.jpg");   
+}
+
+
+/* -- ------------Left section-------------- --> */
+
+.songItem{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 0px 10px;
+    margin: 10px 0;
+    border-radius:13px;
+    width: 300px;
+}
+.songList img {
+    width: 40px;
+    margin: 2px;
+    padding: 5px 5px;  
+    border-radius: 35px;
+}
+.songTime {
+    padding-left: 15px;
+}
+.songItemContaier{
+    margin: 40px 40px;
+}
+.songItem i {
+    cursor: pointer;
+}
+
+
+/* -- ------------Bottom section-------------- --> */
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    height: 60px;
+    padding: 5px 0px;
+    background-color: black;
+    color: white;     
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+.icons {
+    padding: 5px 0px;
+}
+.icons i{
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.logoGif img{
+    width: 90px;
+    opacity: 0;
+    transition: opacity 0.6s ease-in ;
+   
+}
+.logoGif{
+    position: absolute;
+    left: 10vw;
+    bottom: 7px;
+font-family: 'Varela Round', sans-serif;
+}
